@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(110, 110, 224);
+}
+h1,p,h2,h3{
+    color: white;
+}
+h1,h3{
+    text-align: center;
+
+}
+.preview{
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 700px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    width: 600px;
+    border: 3px solid white;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon{
+    width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border:4px solid #fff;
+	cursor: pointer;
+	margin:5px;
+	transition:.2s;
+	overflow: hidden;
+	box-shadow: 3px 3px 5px #000;
+	outline: none;
+}
+.rock{
+    background: url(icons/rock.jpg) center no-repeat;
+    background-size: 65px 65px;
+}
+.scissors{
+    background: url(icons/scissors.jpg) center no-repeat;
+    background-size: 65px 65px;
+}
+.paper{
+    background: url(icons/paper.png) center no-repeat;
+    background-size: 65px 65px;
+}
+.icon:hover{
+    background-color: aqua;
+    border: 1px solid black;
+}
+.icon.active{
+    background-color: green;
+}
+.icon.error{
+    background-color: red;
+}
+.player-score{
+    display: flex;
+    width: 60px;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: cadetblue;
+}
+.comp-score{
+    display: flex;
+    width: 60px;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: cadetblue;
+}
+.icons{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.play{
+    display: block;
+    margin: auto;
+    height: 25px;
+    width: 120px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: brown;
+    border: 2px solid white;
+}
+.img{
+    background: url(icons/paper.png);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="preview" src="icons/preview.jpg">
+    <div class="main">
+        <div class="header">
+            <h1 id="h1">Rock, scissors, paper</h1>
+        </div>
+        <div class="score">
+            <div class="player-score">
+                <h2 class="count-user" id="user">0</h2>
+                <p class="p">Player</p> 
+            </div>
+            <div class="comp-score">
+                <h2 class="count-comp" id="comper">0</h2>
+                <p class="c">Comp</p>
+            </div>
+        </div> 
+        <div class="icons">
+            <div class="player-icons">
+                <button class="icon rock" id="rock" data-icon="r"></button>
+                <button class="icon scissors" id="scissors" data-icon="s"></button>
+                <button class="icon paper" id="paper" data-icon="p"></button>
+            </div>
+            <div class="comp-icons">
+                <button class="icon rock" data-icon="r"></button>
+                <button class="icon scissors" data-icon="s"></button>
+                <button class="icon paper" data-icon="p"></button>
+            </div>
+            
+        </div>
+        <h3 id="result">Make a choice!</h3>
+        <button class="play" id="ag">Play again!</button>            
+    </div>
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
