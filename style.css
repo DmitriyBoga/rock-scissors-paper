@@ -6,7 +6,6 @@ h1,p,h2,h3{
 }
 h1,h3{
     text-align: center;
-
 }
 .preview{
     display: block;
@@ -57,12 +56,6 @@ h1,h3{
     background-color: aqua;
     border: 1px solid black;
 }
-.icon.active{
-    background-color: green;
-}
-.icon.error{
-    background-color: red;
-}
 .player-score{
     display: flex;
     width: 60px;
@@ -106,7 +99,4 @@ h1,h3{
 button:hover{
     background-color: brown;
     border: 2px solid white;
-}
-.img{
-    background: url(icons/paper.png);
 }
